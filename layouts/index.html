@@ -8,15 +8,10 @@
 
 <div>
 	<section>
-		{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-		{{ range (.Paginate $pages 6).Pages }}<div>
-			{{ partial "summary.html" . }}
-		</div>
-		{{ end }}
+		{{ .Page.Content }}
 	</section>
 </div>
 {{ end }}
 
 {{ define "footer" }}
-{{ partial "list-footer.html" . }}
 {{ end }}

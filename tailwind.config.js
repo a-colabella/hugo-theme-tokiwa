@@ -61,7 +61,6 @@ module.exports = {
           800: '#215652',
           900: '#163937',
         },
-
         'golden-tainoi': {
           100: '#FFFAEF',
           200: '#FEF3D6',

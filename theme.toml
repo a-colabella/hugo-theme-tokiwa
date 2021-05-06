@@ -1,10 +1,10 @@
 name = "Tokiwa"
 license = "MIT"
 licenselink = "https://github.com/heyeshuang/hugo-theme-tokiwa/blob/master/LICENSE.md"
-description = "A minimal blog theme inspired by the color tokiwa-iro (常磐色)."
+description = "A minimal blog theme inspired by the color tokiwa-iro"
 homepage = "https://github.com/heyeshuang/hugo-theme-tokiwa"
 tags = ["minimal", "website", "responsive", "blog"]
-features = ["posts", "shortcodes", "related content", "comments"]
+features = ["posts", "shortcodes", "related content", "comments", "gallery"]
 min_version = "0.38"
 
 [author]
